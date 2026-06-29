@@ -1,0 +1,17 @@
+[project]
+name = "loeading"
+version = "1"
+description = ""
+authors = [
+    {name = "ibrahim saideen",email = "saideenibrahim@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=3.0.4,<4.0.0)",
+    "numpy (>=2.5.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
