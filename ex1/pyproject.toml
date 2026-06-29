@@ -1,14 +1,15 @@
 [project]
-name = "loeading"
+name = "loading"
 version = "1"
 description = ""
 authors = [
-    {name = "ibrahim saideen",email = "saideenibrahim@gmail.com"}
+    {name = "Your Name",email = "you@example.com"}
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 dependencies = [
-    "pandas (>=3.0.4,<4.0.0)",
-    "numpy (>=2.5.0,<3.0.0)"
+    "pandas (==2.1.0)",
+    "numpy (==1.25.0)",
+    "matplotlib (==3.7.2)"
 ]
 
 

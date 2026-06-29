@@ -3,7 +3,7 @@ import sys
 
 
 print('LOADING STATUS: Loading programs...')
-print('Checking dependencies:\n')
+print('\nChecking dependencies:')
 x = False
 
 try:
@@ -37,7 +37,7 @@ if x:
     print('poetry install')
     sys.exit()
 
-print('Analyzing Matrix data...')
+print('\nAnalyzing Matrix data...')
 print('Processing 1000 data points...')
 print('Generating visualization...')
 
@@ -46,5 +46,5 @@ df = pandas.DataFrame(data, columns=['signal'])
 plt.plot(df['signal'])
 plt.savefig("data.png")
 
-print('Analysis complete!')
+print('\nAnalysis complete!')
 print('Results saved to: data.png')
